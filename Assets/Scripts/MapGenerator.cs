@@ -203,7 +203,7 @@ public class MapGenerator : MonoBehaviour
         List<Coord> line = GetLine(tileA, tileB);
         foreach (Coord c in line)
         {
-            DrawCircle(c, 1);
+            DrawCircle(c, 2);
         }
     }
 
